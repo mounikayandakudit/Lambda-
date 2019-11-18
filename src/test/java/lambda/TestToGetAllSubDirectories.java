@@ -15,12 +15,10 @@ public class TestToGetAllSubDirectories {
 		
 		File[] subDirectory = dir.listFiles((file) -> file.isDirectory());
 		
-		
-		for (File file : subDirectory) {
+//		for (File file : subDirectory) {
 		System.out.println(file.getName());
-		}
-		List<>
-		assertEquals("src",subDirectory1);
+//		}
+//		
 		//System.out.println(dir.getCanonicalFile());
 	}
 
